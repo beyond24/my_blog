@@ -29,8 +29,7 @@ def article_list(request):
             Q(title__icontains=search) |
             Q(body__icontains=search) |
             Q(comments__body__icontains=search)
-        )
-        print(article_list)
+        ).distinct()    #去重
     else:
         search = ''
 
