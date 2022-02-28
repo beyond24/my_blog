@@ -7,6 +7,50 @@
     文章详情
 {% endblock title %}
 
+{% block css %}
+    {#    评论区的富文本代码高亮#}
+    <link rel="stylesheet" href="{% static 'prism/prism.css' %}">
+
+    <style>
+        .sidebar {
+            will-change: min-height;
+        }
+
+        .sidebar__inner {
+            transform: translate(0, 0);
+        {#transform: translate3d(0, 0, 0);#} will-change: position, transform;
+        }
+    </style>
+
+    <style>
+        #body img {
+            max-width: 100%;
+            cursor:zoom-in;
+        }
+
+        /*使图片在浏览器中居中显示*/
+        .bigImg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            /*图片向左移动自身宽度的50%, 向上移动自身高度的50%。*/
+            transform: translate(-50%, -50%);
+            cursor: zoom-out;
+        }
+
+        /*遮罩层*/
+        .opacityBottom {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            top: 0;
+            left: 0;
+        }
+
+    </style>
+{% endblock %}
 <!-- 写入 base.html 中定义的 content -->
 {% block content %}
 
@@ -32,7 +76,7 @@
                 </div>
 
                 <!-- 文章正文 -->
-                <div class="col-12">
+                <div class="col" id="body">
                     <p>{{ article.body|safe }}</p>
                 </div>
                 <!-- 发表评论 -->
@@ -138,6 +182,7 @@
                                                 <button type="button" class="close" data-dismiss="modal"
                                                         aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
+                                                </button>
                                             </div>
                                             <div class="modal-body" id="modal_body_{{ comment.id }}">
                                             </div>
@@ -177,17 +222,38 @@
 
     </div>
 
-    <style>
-        .sidebar {
-            will-change: min-height;
-        }
 
-        .sidebar__inner {
-            transform: translate(0, 0);
-            transform: translate3d(0, 0, 0);
-            will-change: position, transform;
+
+
+
+{% endblock content %}
+
+{% block js %}
+    <script src="{% static 'js/jquery.sticky-sidebar.min.js' %}"></script>
+    <script src="{% static 'prism/lib/prism/prism_patched.min.js' %}"></script>
+
+    <script>
+        $('img').click(function () {
+            //获取图片路径
+            var imgsrc = $(this).attr("src");
+            {#console.log(imgsrc);#}
+            var opacityBottom = '<div class="opacityBottom" style = "display:none"><img class="bigImg" src="' + imgsrc + '"></div>';
+            $(document.body).append(opacityBottom);
+            toBigImg();//变大函数
+
+        });
+
+        function toBigImg() {
+            $(".opacityBottom").addClass("opacityBottom");//添加遮罩层
+            $(".opacityBottom").show();
+            $("html,body").addClass("none-scroll");//下层不可滑动
+            $(".bigImg").addClass("bigImg");//添加图片样式
+            $(".opacityBottom").click(function () {//点击关闭
+                $("html,body").removeClass("none-scroll");
+                $(".opacityBottom").remove();
+            });
         }
-    </style>
+    </script>
 
     <script>
         // 删除文章的函数
@@ -210,12 +276,6 @@
     </script>
 
 
-{% endblock content %}
-
-{% block js %}
-    <script src="{% static 'js/jquery.sticky-sidebar.min.js' %}"></script>
-    <script src="{% static 'prism/lib/prism/prism_patched.min.js' %}"></script>
-    <link rel="stylesheet" href="{% static 'prism/prism.css' %}">
     <script>
         //清除富文本编辑器的行内块
         $(".django-ckeditor-widget").removeAttr('style');

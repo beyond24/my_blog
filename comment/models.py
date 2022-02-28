@@ -39,8 +39,12 @@ class Comment(MPTTModel):
         related_name='replyers'
     )
 
-    class Meta:
-        ordering = ('-created',)
+
+    # 替换 Meta 为 MPTTMeta
+    # class Meta:
+    #     ordering = ('created',)
+    class MPTTMeta:
+        order_insertion_by = ['-created']
 
     def __str__(self):
         return self.body[:20]
