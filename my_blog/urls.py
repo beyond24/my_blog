@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
 from django.urls import path, include, re_path
 
@@ -34,7 +35,11 @@ urlpatterns = [
 
     # 用户
     path('userprofile/', include('userprofile.urls', namespace='userprofile')),
-    # 引用外部密码重置
-    path('password-reset/', include('password_reset.urls')),
 
+     # 引用轮子
+    # 密码重置
+    path('password-reset/', include('password_reset.urls')),
+    # 通知
+    path('inbox/notifications/', include('notifications.urls', namespace='notifications')),
+    path('notice/', include('notice.urls', namespace='notice')),
 ]

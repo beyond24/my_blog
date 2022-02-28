@@ -20,9 +20,21 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <!-- 引入notifications的模板标签 -->
+                            {% load notifications_tags %}
+                            {% notifications_unread as unread_count %}
+                            {% if unread_count %}
+                                <i style="color: red;font-size: 10px" class="fa fa-circle" aria-hidden="true"></i>
+                            {% endif %}
+
                             {{ user.username }}
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'notice:list' %}">通知
+                                {% if unread_count %}
+                                    <span class="badge badge-danger">{{ unread_count }}</span>
+                                {% endif %}
+                            </a>
                             <a class="dropdown-item" href='{% url "userprofile:edit" user.id %}'>个人信息</a>
                             <a class="dropdown-item" href="#" onclick="user_delete()">删除用户</a>
                             <a class="dropdown-item" href="{% url 'userprofile:logout' %}">退出登录</a>

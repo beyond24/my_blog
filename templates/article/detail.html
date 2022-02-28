@@ -118,6 +118,7 @@
                         <!-- 给 node 取个别名 comment -->
                         {% with comment=node %}
 
+                            <!-- 二级或以上评论向后移 -->
                             <div class="{% if comment.reply_to %}
                                     offset-1 col-11
                                     {% else %}
@@ -302,7 +303,6 @@
                     '"' +
                     ' frameborder="0" style="width: 100%; height: 100%;"></iframe>';
                 $(modal_body).append(content);
-                {#$(modal_body).append("<iframe src='list.html'>sssss</iframe>");#}
 
             }
             ;

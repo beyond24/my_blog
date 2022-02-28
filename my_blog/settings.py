@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'taggit',   # 标签
     'ckeditor', # 富文本编辑器
     'mptt', # 树形结构的多级评论
+    'notifications', # 通知
+    'notice',
 ]
 
 MIDDLEWARE = [
