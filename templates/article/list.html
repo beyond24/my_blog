@@ -5,6 +5,19 @@
     首页
 {% endblock title %}
 
+{% block css %}
+    <style>
+        .article_avatar {
+            max-width: 100%;
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+        .article_avatar:hover{
+            transform: scale(1.2);
+        }
+    </style>
+
+{% endblock %}
 <!-- 写入 base.html 中定义的 content -->
 {% block content %}
 
@@ -53,10 +66,9 @@
             {% for article in articles %}
                 <!-- 标题图 -->
                 {% if article.avatar %}
-                    <div class="col-3">
-                        <img src="{{ article.avatar.url }}"
+                    <div class="col-3" style="overflow: hidden;border-radius: 20px">
+                        <img class="article_avatar" src="{{ article.avatar.url }}"
                              alt="avatar"
-                             style="max-width:100%; border-radius: 20px"
                         >
                     </div>
                 {% endif %}
@@ -112,12 +124,12 @@
                     {{ article.total_views }}&nbsp;&nbsp;&nbsp;
                         </span>
                         <span>
-                        <i class="fa fa-comments-o" ></i>
+                        <i class="fa fa-comments-o"></i>
                             <!-- 修改为评论的计数 -->
                     {{ article.comments.count }}&nbsp;&nbsp;&nbsp;
                         </span>
                         <span style="color: #666669;">
-                        <i class="fa fa-clock-o" ></i>
+                        <i class="fa fa-clock-o"></i>
                     {{ article.created|date:'Y-m-d' }}&nbsp;&nbsp;&nbsp;
                 </span>
                     </p>

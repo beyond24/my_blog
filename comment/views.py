@@ -54,7 +54,9 @@ def post_comment(request, article_id, parent_comment_id=None):
                     action_object=new_comment,
                 )
 
-            return redirect(article)
+            # 评论后跳转到该评论
+            redirect_url = article.get_absolute_url()+'#comment_elem_'+str(new_comment.id)
+            return redirect(redirect_url)
             # redirect()：返回到一个适当的url中：即用户发送评论后，重新定向到文章详情页面。当其参数是一个Model对象时，会自动调用这个Model对象的get_absolute_url()方法
         else:
             return HttpResponse('表单有误')
