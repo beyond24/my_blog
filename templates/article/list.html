@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load my_filters_and_tags %}
+
 
 {% block title %}
     首页
@@ -130,7 +132,8 @@
                         </span>
                         <span style="color: #666669;">
                         <i class="fa fa-clock-o"></i>
-                    {{ article.created|date:'Y-m-d' }}&nbsp;&nbsp;&nbsp;
+
+                    {{ article.created|timesince_zh }}&nbsp;&nbsp;&nbsp;
                 </span>
                     </p>
 

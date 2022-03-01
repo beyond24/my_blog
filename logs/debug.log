@@ -979,3 +979,135 @@ Watching for file changes with StatReloader
 "GET /article/article-list/ HTTP/1.1" 200 14251
 Not Found: /article/article-list/123
 "GET /article/article-list/123 HTTP/1.1" 404 3858
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+Internal Server Error: /article/article-list/
+Traceback (most recent call last):
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 1037, in find_library
+    return parser.libraries[name]
+KeyError: 'my_filters_and_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/beyond/PycharmProjects/my_blog/article/views.py", line 63, in article_list
+    return render(request, 'article/list.html', context)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 1094, in load
+    lib = find_library(parser, name)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 1039, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'my_filters_and_tags' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+mptt_admin
+mptt_tags
+notifications_tags
+static
+tz
+"GET /article/article-list/ HTTP/1.1" 500 161344
+Watching for file changes with StatReloader
+"GET /article/article-list/ HTTP/1.1" 200 14245
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/layer/layer.js HTTP/1.1" 304 0
+"GET /media/article/20220227/pfjqJLYfero.jpg HTTP/1.1" 304 0
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 15776
+"GET /article/article-list/?page=3&order=None&search=&column=None&tag=None HTTP/1.1" 200 15187
+"GET /article/article-list/?page=6&order=None&search=&column=None&tag=None HTTP/1.1" 200 12868
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 14245
+Watching for file changes with StatReloader
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 14245
+"GET /static/layer/layer.js HTTP/1.1" 304 0
+"GET /media/article/20220227/pfjqJLYfero.jpg HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 14245
+"GET /static/layer/layer.js HTTP/1.1" 304 0
+"GET /media/article/20220227/pfjqJLYfero.jpg HTTP/1.1" 304 0
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 14245
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /static/layer/layer.js HTTP/1.1" 304 0
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /media/article/20220227/pfjqJLYfero.jpg HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 14245
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/layer/layer.js HTTP/1.1" 304 0
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /media/article/20220227/pfjqJLYfero.jpg HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 14245
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /media/article/20220227/pfjqJLYfero.jpg HTTP/1.1" 304 0
+"GET /static/layer/layer.js HTTP/1.1" 304 0
+/Users/beyond/PycharmProjects/my_blog/article/templatetags/my_filters_and_tags.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 14245
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/layer/layer.js HTTP/1.1" 304 0
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /media/article/20220227/pfjqJLYfero.jpg HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 14245
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /static/layer/layer.js HTTP/1.1" 304 0
+"GET /media/article/20220227/pfjqJLYfero.jpg HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /article/article-detail/34/ HTTP/1.1" 200 71525
+"GET /article/article-detail/34/ HTTP/1.1" 200 71438
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 304 0
+"GET /static/layer/layer.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=LAHF HTTP/1.1" 304 0
