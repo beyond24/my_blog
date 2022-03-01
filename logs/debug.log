@@ -1111,3 +1111,69 @@ Watching for file changes with StatReloader
 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
 "GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 304 0
 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=LAHF HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /accounts/login/
+"GET /accounts/login/ HTTP/1.1" 404 2933
+"GET /article/article-list/ HTTP/1.1" 200 12368
+"GET /article/article-detail/34/ HTTP/1.1" 200 65847
+"GET /userprofile/login/ HTTP/1.1" 200 4804
+"GET /password-reset/recover/ HTTP/1.1" 200 3850
+/Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article-list/ HTTP/1.1" 200 12368
+Not Found: /static/md_css/colorful.css
+"GET /static/md_css/colorful.css HTTP/1.1" 404 179
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/bootstrap/js/bootstrap.min.js
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+Not Found: /static/layer/layer.js
+"GET /media/article/20220227/pfjqJLYfero.jpg HTTP/1.1" 304 0
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 56203)
+
+"GET /article/article-list/ HTTP/1.1" 200 12368
+Not Found: /static/md_css/colorful.css
+"GET /static/md_css/colorful.css HTTP/1.1" 404 179
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/bootstrap/js/bootstrap.min.js
+Not Found: /static/layer/layer.js
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+Not Found: /static/bootstrap/js/bootstrap.min.js
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+Not Found: /static/layer/layer.js
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+"GET /article/article-list/ HTTP/1.1" 200 12368
+Not Found: /static/md_css/colorful.css
+"GET /static/md_css/colorful.css HTTP/1.1" 404 179
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/bootstrap/js/bootstrap.min.js
+Not Found: /static/layer/layer.js
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+"GET /userprofile/login/ HTTP/1.1" 200 4804
+Not Found: /static/md_css/colorful.css
+"GET /static/md_css/colorful.css HTTP/1.1" 404 179
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/layer/layer.js
+Not Found: /static/bootstrap/js/bootstrap.min.js
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+Not Found: /static/md_css/colorful.css
+"GET /static/md_css/colorful.css HTTP/1.1" 404 179
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/bootstrap/js/bootstrap.min.js
+Not Found: /static/layer/layer.js
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+Not Found: /static/layer/layer.js
+"GET /static/layer/layer.js HTTP/1.1" 404 179
