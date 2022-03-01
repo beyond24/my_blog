@@ -1,14 +1,15 @@
 import markdown
-from django.contrib.auth.decorators import login_required
+from django.contrib.auth.decorators import login_required,permission_required
 from django.core.paginator import Paginator
 from django.db.models import Q
-from django.shortcuts import render, redirect, HttpResponse
+from django.shortcuts import render, redirect, HttpResponse,get_object_or_404
 
 from comment.forms import CommentForm
 from comment.models import Comment
 from .models import ArticlePost, ArticleColumn
 from django.contrib.auth.models import User
 from .forms import ArticlePostForm
+from django.contrib.admin.views.decorators import staff_member_required
 
 
 # Create your views here.
@@ -63,7 +64,7 @@ def article_list(request):
 
 
 def article_detail(request, id):
-    article = ArticlePost.objects.get(id=id)
+    article = get_object_or_404(ArticlePost, id=id)
     comments = Comment.objects.filter(article=id)
 
     comment_form = CommentForm()
@@ -87,9 +88,10 @@ def article_detail(request, id):
 
     return render(request, 'article/detail.html', context)
 
-
 @login_required(login_url='/userprofile/login/')
 def article_create(request):
+    if not request.user.is_superuser:
+        return HttpResponse('你没有此权限！')
     if request.method == 'POST':
         article_post_form = ArticlePostForm(request.POST, request.FILES)
         if article_post_form.is_valid():

@@ -42,6 +42,7 @@ class ArticlePost(models.Model):
 
     class Meta:
         ordering = ('-created',)
+        permissions = []
 
     def __str__(self):
         return self.title
