@@ -21,8 +21,10 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.views.static import serve
 
-urlpatterns = [
+from article.views import article_list
 
+urlpatterns = [
+    path('', article_list, name='home'),
     # 启用media
     re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}, name='media'),
 
@@ -36,7 +38,7 @@ urlpatterns = [
     # 用户
     path('userprofile/', include('userprofile.urls', namespace='userprofile')),
 
-     # 引用轮子
+    # 引用轮子
     # 密码重置
     path('password-reset/', include('password_reset.urls')),
     # 通知
