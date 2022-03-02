@@ -1602,3 +1602,6 @@ Watching for file changes with StatReloader
 "GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 304 0
 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
 "GET /static/layer/layer.js HTTP/1.1" 304 0
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+/Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
+Watching for file changes with StatReloader
