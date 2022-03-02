@@ -30,6 +30,7 @@ class ArticlePost(models.Model):
     updated = models.DateTimeField(auto_now=True)
 
     total_views = models.PositiveIntegerField(default=0)
+    likes = models.PositiveIntegerField(default=0)
     column = models.ForeignKey(
         ArticleColumn,
         null=True,

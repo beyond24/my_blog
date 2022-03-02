@@ -1387,3 +1387,218 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12306
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 200 9000
+Not Found: /static/bootstrap/js/bootstrap.min.js
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/layer/layer.js
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+"GET /media/article/20220227/pfjqJLYfero.jpg HTTP/1.1" 200 37168
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 61857)
+
+"GET /article/article-detail/34/ HTTP/1.1" 200 66593
+Not Found: /static/md_css/colorful.css
+Not Found: /static/prism/prism.css
+"GET /static/md_css/colorful.css HTTP/1.1" 404 179
+"GET /static/prism/prism.css HTTP/1.1" 404 179
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/bootstrap/js/bootstrap.min.js
+Not Found: /static/layer/layer.js
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+Not Found: /static/layer/layer.js
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+"GET /article/article-detail/34/ HTTP/1.1" 200 66592
+Not Found: /static/prism/prism.css
+Not Found: /static/md_css/colorful.css
+"GET /static/prism/prism.css HTTP/1.1" 404 179
+"GET /static/md_css/colorful.css HTTP/1.1" 404 179
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/bootstrap/js/bootstrap.min.js
+Not Found: /static/layer/layer.js
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+Not Found: /static/bootstrap/js/bootstrap.min.js
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+Not Found: /static/layer/layer.js
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+"GET /article/article-detail/34/ HTTP/1.1" 200 66592
+Not Found: /static/md_css/colorful.css
+Not Found: /static/prism/prism.css
+"GET /static/md_css/colorful.css HTTP/1.1" 404 179
+"GET /static/prism/prism.css HTTP/1.1" 404 179
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/bootstrap/js/bootstrap.min.js
+Not Found: /static/layer/layer.js
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+Not Found: /static/bootstrap/js/bootstrap.min.js
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+Not Found: /static/layer/layer.js
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+"GET /article/article-detail/34/ HTTP/1.1" 200 66592
+Not Found: /static/md_css/colorful.css
+Not Found: /static/prism/prism.css
+"GET /static/md_css/colorful.css HTTP/1.1" 404 179
+"GET /static/prism/prism.css HTTP/1.1" 404 179
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/bootstrap/js/bootstrap.min.js
+Not Found: /static/layer/layer.js
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+Not Found: /static/bootstrap/js/bootstrap.min.js
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+Not Found: /static/layer/layer.js
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+"GET /article/article-detail/34/ HTTP/1.1" 200 66592
+Not Found: /static/md_css/colorful.css
+Not Found: /static/prism/prism.css
+"GET /static/md_css/colorful.css HTTP/1.1" 404 179
+"GET /static/prism/prism.css HTTP/1.1" 404 179
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/layer/layer.js
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+Not Found: /static/bootstrap/js/bootstrap.min.js
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+Not Found: /static/bootstrap/js/bootstrap.min.js
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+Not Found: /static/layer/layer.js
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+"GET /article/article-list/ HTTP/1.1" 200 12306
+Not Found: /static/jquery/jquery-3.6.0.min.js
+Not Found: /static/bootstrap/js/bootstrap.min.js
+Not Found: /static/layer/layer.js
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+Not Found: /static/layer/layer.js
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+"GET /article/article-detail/34/ HTTP/1.1" 200 66592
+Not Found: /static/md_css/colorful.css
+Not Found: /static/prism/prism.css
+"GET /static/prism/prism.css HTTP/1.1" 404 179
+"GET /static/md_css/colorful.css HTTP/1.1" 404 179
+Not Found: /static/jquery/jquery-3.6.0.min.js
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 404 179
+Not Found: /static/bootstrap/js/bootstrap.min.js
+Not Found: /static/layer/layer.js
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+Not Found: /static/layer/layer.js
+"GET /static/layer/layer.js HTTP/1.1" 404 179
+Not Found: /static/js/jquery.sticky-sidebar.min.js
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+Not Found: /static/bootstrap/css/bootstrap.min.css.map
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 179
+"GET /article/article-detail/34/ HTTP/1.1" 200 66592
+/Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article-detail/34/ HTTP/1.1" 200 66592
+"GET /static/md_css/colorful.css HTTP/1.1" 200 5460
+"GET /static/prism/prism.css HTTP/1.1" 200 3976
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/layer/layer.js HTTP/1.1" 200 22738
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 51039
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/layer/theme/default/layer.css?v=3.5.1 HTTP/1.1" 304 0
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+"GET /article/article-list/ HTTP/1.1" 200 12306
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+"GET /article/article-detail/34/ HTTP/1.1" 200 66592
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+"GET /article/article-detail/34/ HTTP/1.1" 200 66592
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+"GET /article/article-detail/34/ HTTP/1.1" 200 66592
+"GET / HTTP/1.1" 200 12306
+- Broken pipe from ('127.0.0.1', 49939)
+
+"GET /article/article-detail/34/ HTTP/1.1" 200 69148
+"GET /static/js/csrf.js HTTP/1.1" 304 0
+"POST /article/increase-likes/34/ HTTP/1.1" 200 7
+"GET /article/article-detail/34/ HTTP/1.1" 200 69148
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 304 0
+"GET /static/js/csrf.js HTTP/1.1" 304 0
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 304 0
+"GET /static/layer/layer.js HTTP/1.1" 304 0
+"GET /article/article-detail/33/ HTTP/1.1" 200 47959
+"POST /article/increase-likes/33/ HTTP/1.1" 200 7
+"GET /article/article-detail/33/ HTTP/1.1" 200 47934
+"GET /static/js/csrf.js HTTP/1.1" 304 0
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/layer/layer.js HTTP/1.1" 304 0
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 304 0
+"GET /?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 13837
+"GET /media/article/20220226/Ju-ITc1Cc0w.jpg HTTP/1.1" 304 0
+"GET /media/article/20220226/SBiVq9eWEtQ.jpg HTTP/1.1" 304 0
+"GET /media/article/20220226/Hv-eGJnqR8o.jpg HTTP/1.1" 304 0
+"GET /article/article-detail/29/ HTTP/1.1" 200 12298
+"POST /article/increase-likes/29/ HTTP/1.1" 200 7
+"GET /article/article-detail/29/ HTTP/1.1" 200 12298
+"GET /static/js/csrf.js HTTP/1.1" 304 0
+"GET /static/jquery/jquery-3.6.0.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.sticky-sidebar.min.js HTTP/1.1" 304 0
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/layer/layer.js HTTP/1.1" 304 0

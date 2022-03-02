@@ -3,6 +3,7 @@ from django.contrib.auth.decorators import login_required,permission_required
 from django.core.paginator import Paginator
 from django.db.models import Q
 from django.shortcuts import render, redirect, HttpResponse,get_object_or_404
+from django.views import View
 
 from comment.forms import CommentForm
 from comment.models import Comment
@@ -61,6 +62,16 @@ def article_list(request):
         'tag': tag,
     }
     return render(request, 'article/list.html', context)
+
+
+
+# 使用类视图完成点赞数
+class IncreaseLikesView(View):
+    def post(self,request, *args,**kwargs):
+        article = ArticlePost.objects.get(id=kwargs.get('id'))
+        article.likes +=1
+        article.save()
+        return HttpResponse('success')
 
 
 def article_detail(request, id):
