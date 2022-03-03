@@ -2177,3 +2177,198 @@ Watching for file changes with StatReloader
 "GET /article/article-list/ HTTP/1.1" 200 14771
 "GET /media/article/20220303/tN-z9_9kFXQ.jpg HTTP/1.1" 304 0
 "GET /article/article-detail/44/ HTTP/1.1" 200 24087
+"GET /article/article-list/ HTTP/1.1" 200 14776
+"GET /media/article/20220303/tN-z9_9kFXQ.jpg HTTP/1.1" 304 0
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /article/article-list/?tag=model HTTP/1.1" 200 9497
+"GET /article/article-list/?search=django HTTP/1.1" 200 14934
+"GET /article/article-list/?page=2&order=None&search=django&column=None&tag=None HTTP/1.1" 200 9771
+"GET /article/article-list/?page=1&order=None&search=django&column=None&tag=None HTTP/1.1" 200 14934
+"GET /article/article-list/?page=2&order=None&search=django&column=None&tag=None HTTP/1.1" 200 9771
+"GET /article/article-list/?page=1&order=None&search=django&column=None&tag=None HTTP/1.1" 200 14934
+"GET /userprofile/edit/1/ HTTP/1.1" 200 7022
+"GET /media/avatar/20220221/7f23b0ec9b951ba757a2c6a05926584c.jpeg HTTP/1.1" 200 365288
+"GET /userprofile/logout/ HTTP/1.1" 302 0
+"GET /article/article-list/ HTTP/1.1" 200 12899
+"GET /media/article/20220303/tN-z9_9kFXQ.jpg HTTP/1.1" 304 0
+"GET /userprofile/login/ HTTP/1.1" 200 4742
+"GET /userprofile/register/ HTTP/1.1" 200 5251
+"POST /userprofile/register/ HTTP/1.1" 200 5332
+/Users/beyond/PycharmProjects/my_blog/userprofile/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/beyond/PycharmProjects/my_blog/userprofile/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/beyond/PycharmProjects/my_blog/userprofile/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/beyond/PycharmProjects/my_blog/userprofile/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2216
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+"GET /static/admin/css/base.css HTTP/1.1" 200 19513
+"GET /static/admin/css/login.css HTTP/1.1" 200 939
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9637
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+"GET /admin/article/articlepost/ HTTP/1.1" 200 12321
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+"GET /static/admin/js/core.js HTTP/1.1" 200 5698
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+"GET /admin/jsi18n/ HTTP/1.1" 200 8376
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/ HTTP/1.1" 200 9637
+"GET /admin/auth/user/ HTTP/1.1" 200 11154
+"GET /admin/jsi18n/ HTTP/1.1" 200 8376
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/auth/user/5/change/ HTTP/1.1" 200 24576
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+"GET /admin/jsi18n/ HTTP/1.1" 200 8376
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+"GET /static/admin/js/inlines.js HTTP/1.1" 200 15225
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /admin/auth/user/ HTTP/1.1" 200 11154
+"GET /admin/auth/user/add/ HTTP/1.1" 200 13967
+"GET /admin/jsi18n/ HTTP/1.1" 200 8376
+"GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+"GET /admin/auth/user/ HTTP/1.1" 200 11154
+"GET /admin/jsi18n/ HTTP/1.1" 200 8376
+"GET /admin/auth/user/add/ HTTP/1.1" 200 13967
+"GET /admin/jsi18n/ HTTP/1.1" 200 8376
+/Users/beyond/PycharmProjects/my_blog/userprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/beyond/PycharmProjects/my_blog/userprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (CSRF token missing or incorrect.): /userprofile/register/
+"POST /userprofile/register/ HTTP/1.1" 403 2514
+Forbidden (CSRF token missing or incorrect.): /userprofile/register/
+"POST /userprofile/register/ HTTP/1.1" 403 2514
+"GET /userprofile/register/ HTTP/1.1" 200 7128
+"GET /userprofile/login/ HTTP/1.1" 200 6619
+"POST /userprofile/login/ HTTP/1.1" 302 0
+"GET /article/article-list/ HTTP/1.1" 200 14666
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /media/article/20220303/tN-z9_9kFXQ.jpg HTTP/1.1" 304 0
+"GET /userprofile/logout/ HTTP/1.1" 302 0
+"GET /article/article-list/ HTTP/1.1" 200 12900
+"GET /userprofile/login/ HTTP/1.1" 200 4742
+"GET /userprofile/register/ HTTP/1.1" 200 5251
+Internal Server Error: /userprofile/register/
+Traceback (most recent call last):
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/beyond/PycharmProjects/my_blog/userprofile/views.py", line 48, in user_register
+    if not user_register_form.cleaned_data['email']:
+AttributeError: 'UserRegisterForm' object has no attribute 'cleaned_data'
+"POST /userprofile/register/ HTTP/1.1" 500 64714
+/Users/beyond/PycharmProjects/my_blog/userprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /userprofile/register/ HTTP/1.1" 200 5251
+"GET /userprofile/register/ HTTP/1.1" 200 5251
+"POST /userprofile/register/ HTTP/1.1" 200 5332
+"POST /userprofile/register/ HTTP/1.1" 200 5369
+"POST /userprofile/register/ HTTP/1.1" 200 5332
+"POST /userprofile/register/ HTTP/1.1" 200 5332
+"POST /userprofile/register/ HTTP/1.1" 200 5369
+/Users/beyond/PycharmProjects/my_blog/userprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /userprofile/register/ HTTP/1.1" 200 5369
+"POST /userprofile/register/ HTTP/1.1" 200 5356
+"POST /userprofile/register/ HTTP/1.1" 200 5356
+"GET /userprofile/register/ HTTP/1.1" 200 5251
+"POST /userprofile/register/ HTTP/1.1" 200 5356
+/Users/beyond/PycharmProjects/my_blog/userprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/beyond/PycharmProjects/my_blog/userprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /userprofile/register/ HTTP/1.1" 200 5386
+"POST /userprofile/register/ HTTP/1.1" 200 5369
+"GET /userprofile/login/ HTTP/1.1" 200 4742
+"GET /article/article-list/ HTTP/1.1" 200 12900
+"GET /userprofile/login/ HTTP/1.1" 200 4742
+"GET /userprofile/register/ HTTP/1.1" 200 5251
+"POST /userprofile/register/ HTTP/1.1" 200 5386
+"POST /userprofile/register/ HTTP/1.1" 200 5369
+/Users/beyond/PycharmProjects/my_blog/userprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article-list/ HTTP/1.1" 200 12900
+"GET /media/article/20220303/tN-z9_9kFXQ.jpg HTTP/1.1" 304 0
+"GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 178802
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+"GET /article/article-list/ HTTP/1.1" 200 12866
+"GET /article/article-list/ HTTP/1.1" 200 12900
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 12758
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 12900
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 12758
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 12714
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 12714
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 12714
+"GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 178802
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 12738
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+"GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 178802
+"GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 178802
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 12738
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+"GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 178802
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 12762
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+"GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 178802
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 12784
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+"GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 178802
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 12925
+"GET /media/article/20220303/tN-z9_9kFXQ.jpg HTTP/1.1" 304 0
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 12925
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 12925
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 12944
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 12944
+"GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 178802
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 12904
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+"GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 178802
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 12944
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 12900
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 12944
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 12804
+"GET /article/article-list/?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 12944
+"GET /userprofile/login/ HTTP/1.1" 200 4742
+"GET /userprofile/register/ HTTP/1.1" 200 5251
+"GET /article/article-list/ HTTP/1.1" 200 12944
+"GET /article/article-list/ HTTP/1.1" 200 12944
+"GET /article/article-list/ HTTP/1.1" 200 12944
+/Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
+Watching for file changes with StatReloader

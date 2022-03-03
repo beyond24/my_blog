@@ -44,6 +44,10 @@ def user_logout(request):
 def user_register(request):
     if request.method == 'POST':
         user_register_form = UserRegisterForm(data=request.POST)
+
+        if not user_register_form.data['email']:
+            user_register_form.add_error('email','请输入可用的邮箱，否则将无法找回密码')
+
         if user_register_form.is_valid():
             new_user = user_register_form.save(commit=False)
             # 设置密码

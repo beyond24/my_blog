@@ -28,6 +28,8 @@ class UserRegisterForm(forms.ModelForm):
         else:
             raise forms.ValidationError("密码输入不一致,请重试。")
 
+
+
 class ProfileForm(forms.ModelForm):
     class Meta:
         model = Profile
