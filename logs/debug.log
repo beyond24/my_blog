@@ -2399,3 +2399,102 @@ Not Found: /static/prism/lib/prism/prism_patched.min.js
 Watching for file changes with StatReloader
 /Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
 Watching for file changes with StatReloader
+/Users/beyond/PycharmProjects/my_blog/userprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12935
+Not Found: /static/bootstrap/css/bootstrap.min.css
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+"GET /media/article/20220303/tN-z9_9kFXQ.jpg HTTP/1.1" 304 0
+"GET /userprofile/login/ HTTP/1.1" 200 4751
+Not Found: /static/bootstrap/css/bootstrap.min.css
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+"POST /userprofile/login/ HTTP/1.1" 200 4751
+Not Found: /static/bootstrap/css/bootstrap.min.css
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+"POST /userprofile/login/ HTTP/1.1" 200 4751
+Not Found: /static/bootstrap/css/bootstrap.min.css
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+/Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140936
+"GET /userprofile/login/ HTTP/1.1" 200 4751
+"POST /userprofile/login/ HTTP/1.1" 200 4751
+"POST /userprofile/login/ HTTP/1.1" 200 4751
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /userprofile/login/ HTTP/1.1" 200 4808
+"POST /userprofile/login/ HTTP/1.1" 200 4808
+"POST /userprofile/login/ HTTP/1.1" 200 4808
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /userprofile/login/ HTTP/1.1" 200 4808
+"POST /userprofile/login/ HTTP/1.1" 200 4808
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /userprofile/login/ HTTP/1.1" 200 4808
+"POST /userprofile/login/ HTTP/1.1" 200 4808
+"POST /userprofile/login/ HTTP/1.1" 200 4808
+"GET /userprofile/login/ HTTP/1.1" 200 4811
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /userprofile/login/ HTTP/1.1" 200 4811
+"POST /userprofile/login/ HTTP/1.1" 200 4811
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /userprofile/login/ HTTP/1.1" 200 4871
+"POST /userprofile/login/ HTTP/1.1" 200 4871
+"POST /userprofile/login/ HTTP/1.1" 200 4871
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /userprofile/login/ HTTP/1.1" 200 4865
+"POST /userprofile/login/ HTTP/1.1" 200 4865
+/Users/beyond/PycharmProjects/my_blog/userprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /userprofile/login/ HTTP/1.1" 200 4892
+"POST /userprofile/login/ HTTP/1.1" 200 4892
+"POST /userprofile/login/ HTTP/1.1" 200 4865
+/Users/beyond/PycharmProjects/my_blog/userprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /userprofile/login/ HTTP/1.1" 200 4865
+Internal Server Error: /userprofile/login/
+Traceback (most recent call last):
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view userprofile.views.user_login didn't return an HttpResponse object. It returned None instead.
+"POST /userprofile/login/ HTTP/1.1" 500 65388
+Watching for file changes with StatReloader
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /userprofile/login/ HTTP/1.1" 200 4865
+Internal Server Error: /userprofile/login/
+Traceback (most recent call last):
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/beyond/PycharmProjects/my_blog/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view userprofile.views.user_login didn't return an HttpResponse object. It returned None instead.
+"POST /userprofile/login/ HTTP/1.1" 500 65389
+/Users/beyond/PycharmProjects/my_blog/userprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /userprofile/login/ HTTP/1.1" 200 4865
+"POST /userprofile/login/ HTTP/1.1" 200 4901
+"POST /userprofile/login/ HTTP/1.1" 200 4901
+"POST /userprofile/login/ HTTP/1.1" 302 0
+"GET /article/article-list/ HTTP/1.1" 200 14701
+"GET / HTTP/1.1" 200 14701
+"GET /userprofile/logout/ HTTP/1.1" 302 0
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /userprofile/login/ HTTP/1.1" 200 4865
+"POST /userprofile/login/ HTTP/1.1" 302 0
+"GET /article/article-list/ HTTP/1.1" 200 14701
+"GET /userprofile/login/ HTTP/1.1" 200 6631
+"GET /userprofile/logout/ HTTP/1.1" 302 0
+"GET /article/article-list/ HTTP/1.1" 200 12935
+"GET /userprofile/login/ HTTP/1.1" 200 4865
+"POST /userprofile/login/ HTTP/1.1" 200 4901
+"POST /userprofile/login/ HTTP/1.1" 302 0
+"GET /article/article-list/ HTTP/1.1" 200 14701
+/Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
+Watching for file changes with StatReloader
