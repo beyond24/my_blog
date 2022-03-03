@@ -46,9 +46,14 @@
                         >
                     </div>
                     <!-- 文章标题图 -->
-                    <div class="form-group">
+                    <div class="form-group ">
                         <label for="avatar">标题图</label>
                         <input type="file" class="form-control-file" name="avatar" id="avatar">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="md">识别md文件</label>
+                        <input type="file" class="form-control-file" id="md">
                     </div>
 
                     <!-- 文章正文 -->
@@ -65,3 +70,27 @@
         </div>
     </div>
 {% endblock content %}
+
+{% block js %}
+    <script>
+
+        var fileInput = $('#md')[0];
+        fileInput.addEventListener('change', function () {
+            var file = fileInput.files[0];
+            if (file.name.slice(-3) == '.md') {
+                $('#title').attr('value', file.name.slice(0, -3));
+                var reader = new FileReader();
+
+                reader.onload = function () {
+                    console.log(this.result);
+                    $('#body')[0].innerHTML = this.result;
+                }
+                reader.readAsText(file,'utf-8');
+            } else {
+                layer.msg('请上传正确的markdown文件');
+                return
+            }
+
+        })
+    </script>
+{% endblock js %}

@@ -209,10 +209,8 @@ LOGGING = {
 
 # 部署到服务器
 # 关闭调试模式
-DEBUG = False
-
-# 允许的服务器
-ALLOWED_HOSTS = ['39.107.93.105','127.0.0.1']
-
-# 静态文件收集目录
-STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
+# DEBUG = False
+#
+# ALLOWED_HOSTS = ['.beyond24.cn','39.107.93.105','127.0.0.1']
+#
+# STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
