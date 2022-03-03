@@ -2498,3 +2498,35 @@ Watching for file changes with StatReloader
 "GET /article/article-list/ HTTP/1.1" 200 14701
 /Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14704
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /article/article-detail/34/ HTTP/1.1" 200 74612
+Not Found: /static/ckeditor/ckeditor/ckeditor.js
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+Not Found: /static/ckeditor/ckeditor/ckeditor.js
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+Watching for file changes with StatReloader
+"GET /article/article-detail/43/ HTTP/1.1" 200 18630
+Not Found: /static/ckeditor/ckeditor/ckeditor.js
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+"GET /article/article-list/ HTTP/1.1" 200 14704
+"GET /article/article-list/ HTTP/1.1" 200 14704
+"GET /article/article-list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 14594
+"GET /article/article-detail/32/ HTTP/1.1" 200 26061
+Not Found: /static/ckeditor/ckeditor/ckeditor.js
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+Not Found: /static/ckeditor/ckeditor/ckeditor.js
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
