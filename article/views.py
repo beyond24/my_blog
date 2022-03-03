@@ -14,7 +14,8 @@ from django.contrib.admin.views.decorators import staff_member_required
 
 
 # Create your views here.
-
+def page_not_found(request,exception):
+    return render(request, '404.html')
 
 def article_list(request):
     search = request.GET.get('search')

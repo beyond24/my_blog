@@ -21,7 +21,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.views.static import serve
 
-from article.views import article_list
+from article.views import article_list, page_not_found
 
 urlpatterns = [
     path('', article_list, name='home'),
@@ -45,3 +45,4 @@ urlpatterns = [
     path('inbox/notifications/', include('notifications.urls', namespace='notifications')),
     path('notice/', include('notice.urls', namespace='notice')),
 ]
+handler404 = page_not_found
