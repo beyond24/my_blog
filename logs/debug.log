@@ -2373,3 +2373,29 @@ Watching for file changes with StatReloader
 /Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+/Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12947
+Not Found: /static/bootstrap/css/bootstrap.min.css
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+"GET /media/article/20220303/tN-z9_9kFXQ.jpg HTTP/1.1" 304 0
+"GET /media/article/20220227/1jhykJUftOc.jpg HTTP/1.1" 304 0
+"GET /article/article-detail/44/ HTTP/1.1" 200 19417
+Not Found: /static/bootstrap/css/bootstrap.min.css
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+"GET /article/article-detail/43/ HTTP/1.1" 200 14335
+Not Found: /static/bootstrap/css/bootstrap.min.css
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+Not Found: /static/prism/lib/prism/prism_patched.min.js
+"GET /static/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 179
+/Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/beyond/PycharmProjects/my_blog/my_blog/settings.py changed, reloading.
+Watching for file changes with StatReloader
