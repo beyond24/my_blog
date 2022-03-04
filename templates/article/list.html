@@ -17,6 +17,7 @@
         .article_avatar:hover{
             transform: scale(1.2);
         }
+
     </style>
 
 {% endblock %}
@@ -28,12 +29,12 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="{% url 'article:article_list' %}">
+                    <a class="btn-link" href="{% url 'article:article_list' %}">
                         最新
                     </a>
                 </li>
                 <li class="breadcrumb-item">
-                    <a href="{% url 'article:article_list' %}?order=total_views">
+                    <a class="btn-link" href="{% url 'article:article_list' %}?order=total_views">
                         最热
                     </a>
                 </li>
@@ -82,10 +83,10 @@
                            class="btn btn-sm mb-2
                         {% if article.column.title == 'Django' %}
                             btn-success
-                        {% elif article.column.title == 'Mysql' %}
+                        {% elif article.column.title == 'Python' %}
                             btn-danger
                         {% else %}
-                            btn-warning
+                            btn-info
                         {% endif %}
                     "
                         >
@@ -184,3 +185,22 @@
 
     </div>
 {% endblock content %}
+
+{% block js %}
+    <script>
+        function getUrlParam(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+            var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+            if (r != null) return unescape(r[2]); return null; //返回参数值
+        }
+
+        {#var st = $.getUrlParam('order');#}
+        if (getUrlParam('order') ){
+            $('.breadcrumb-item a').eq(1).addClass('disabled')
+        }else {
+            $('.breadcrumb-item a').first().addClass('disabled')
+        }
+
+
+    </script>
+{% endblock js %}
